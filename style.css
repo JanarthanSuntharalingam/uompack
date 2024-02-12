@@ -1,0 +1,36 @@
+.titlebar{
+    width : 100%;
+    height: 50px;
+    background-color: rgb(120, 63, 211);
+    margin-top : -10px;
+}
+.phead{
+  font-size : 20px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-weight: 700;
+}
+body{
+  margin : 0;
+}
+.breakbar{
+  width : 100%;
+  height : 3px;
+  background-color: rgb(130, 63, 211);
+  animation: bars 2s infinite;
+}
+.textboxp{
+  width : 90%;
+  height : 230px;
+  background-color: rgb(130, 63, 211);
+  border-radius: 5px 20px 5px 20px;
+}
+
+@keyframes bars{
+  0%{width : 2px;}
+  25%{height : 5px;}
+  50%{height : 8px;}
+  75%{height : 5px;}
+  100%{height : 2px;}
+}
